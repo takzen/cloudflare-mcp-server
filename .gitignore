@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+
+# Secrets / API keys
+.env
+.dev.vars
+wrangler.toml
+
+# VSCode workspace settings (opcjonalnie, jeśli nie chcesz publikować prywatnych ustawień)
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build output
+dist/
+build/
+
+# Optional: test coverage reports
+coverage/
