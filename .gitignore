@@ -22,3 +22,5 @@ build/
 
 # Optional: test coverage reports
 coverage/
+.wrangler/
+
