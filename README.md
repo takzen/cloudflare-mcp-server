@@ -20,12 +20,7 @@ A modular MCP (Model Communication Platform) server deployed on **Cloudflare Wor
 cloudflare-mcp/
 │
 ├─ src/
-│   ├─ index.ts           # main MCP Server
-│   ├─ tools/
-│   │   ├─ getWeather.ts
-│   │   ├─ getForecast.ts
-│   │   └─ ... other tools
-│   └─ utils.ts           # helper functions
+│   └─ index.ts           # main MCP Server
 │
 ├─ test/                  # optional tests
 ├─ package.json
@@ -140,13 +135,6 @@ Response:
 
 ---
 
-## Adding New Tools
-
-1. Create a new file in `src/tools/` (e.g., `getAirQuality.ts`).
-2. Export a tool object with `name`, `description`, `inputSchema`, and `handler`.
-3. Import and add the tool to `index.ts`.
-
----
 
 ## License
 
